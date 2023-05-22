@@ -1,0 +1,378 @@
+@import url(./normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@400;600;700&family=Roboto:wght@700&family=Work+Sans:wght@500;600;700&display=swap");
+/*font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Work Sans', sans-serif;*/
+:root {
+  font-size: 10px;
+}
+body {
+  max-width: 100%;
+  background-color: #212529;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 3rem;
+  background-color: #212529;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  min-width: 30%;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+.nav a {
+  text-decoration: none;
+  color: #ffffff;
+  cursor: move;
+  transition: all 1s;
+}
+.nav a:hover {
+  color: #ffb742;
+}
+.header__btn {
+  width: 12.1rem;
+  height: 5.4rem;
+  background-color: #ffb742;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5rem;
+}
+.header__btn {
+  text-decoration: none;
+  color: #212529;
+}
+.hero {
+  margin: 0 auto;
+  padding-top: 12rem;
+  width: 70%;
+  text-align: center;
+}
+.greet {
+  height: 4.7rem;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+.greet a {
+  color: #ffffff;
+  transition: all 1s;
+}
+.greet a:hover {
+  color: #ffb742;
+}
+.title {
+  height: 9.1rem;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+}
+
+.content {
+  padding-top: 2.5rem;
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+.avatar {
+  padding-top: 2.2rem;
+}
+.cards {
+  margin: 0 auto;
+  padding-top: 12rem;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  
+}
+.card__content {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  height: 12rem;
+  background-color: #292b2e;
+  align-items: center;
+  list-style: none;
+  color: #ffffff;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.card__text {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  
+}
+.card__text span {
+  color: #ffb742;
+  font-size: 3.2rem;
+}
+.card__symbol {
+  width: 0.68rem;
+  height: 1.16rem;
+}
+.card__content:hover{
+    background: linear-gradient(94.3deg, #FFB742 0%, rgba(255, 123, 66, 0.76) 99.33%);
+    color: #212529;
+}
+/*about me*/
+.about__me{
+    display: flex;
+    margin-top: 22rem;
+}
+.about__foto{
+    width: 50%;
+    text-align: center;
+}
+.about__content{
+    width: 50%;
+}
+.about__greet{
+    width: 14.8rem;
+    height: 4.2rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5rem;
+    color: #FFB742;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+}
+.about__title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 4.8rem;
+    color:  #FFFFFF;
+}
+.about__text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #D4D4D4;
+    line-height: 3rem;
+    margin-top: 3rem;
+}
+.about__btn{
+    background-color: #FFB742;
+    width: 14.7rem;
+    height: 5.4rem;
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-top: 5.4rem;
+}
+
+.about__btn a{
+    text-decoration: none;
+    color:  #212529;
+}
+.my__skills{
+  margin: 0;
+  padding: 0 10rem 16.6rem 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.logo__skills{
+  width: 40%;
+}
+.skills__prog{
+  display: flex;
+  justify-content: space-between;
+}
+.logo__prog{
+  margin: 2rem;
+  width: 8rem;
+  height: 8rem;
+  background-color: #383E45;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  transition: all 1s;
+}
+.logo__prog:hover{
+  background: rgba(255, 183, 66, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo__prog img{
+  width: 5rem;
+  height: 5rem;
+}
+.about__work .nav{
+  margin-bottom: 4.8rem;
+}
+.about__work{
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+}
+.about__work .about__greet{
+  margin: 0 auto;
+} 
+.about__work .about__title{
+  margin-bottom: 3rem;
+}
+
+.foto{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  
+}
+.foto__big {
+  margin: 3rem;
+}
+.foto__small {
+  margin: 3rem;
+}
+.foto__big:nth-child(2){
+  position: relative;
+  top: 36rem;
+  left: 0;
+}
+.foto__small:nth-child(2){
+  position: relative;
+  bottom: 56rem;
+  left: 0;
+}
+.foto__item{
+  margin-bottom: 13.6rem;
+}
+.cards__review__content{
+  width: 38rem;
+  height: 45rem;
+  background-color: #FFFFFF;
+  border-radius: 0.8rem;
+  margin: 3rem;
+  padding: 0;
+}
+.stars{
+ position: relative;
+ top: 5rem;
+ left: 2rem;
+}
+.text__review{
+  margin-top: 8.6rem;
+ margin-left: 2rem;
+ font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3.4rem;
+}
+.foto__reviewer{
+  position: relative;
+ top:3rem;
+  left: 5rem;
+}
+.reviewer{
+  position: relative;
+  bottom: 4rem;
+  left:15rem;
+}
+.reviewer__name{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 3.4rem;
+}
+.reviewer__profession{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 3.4rem;
+}
+.cards__review{
+  display: flex;
+  justify-content: center;
+}
+/*footer*/
+.footer{
+  height: 47rem;
+  background-color: #1C1C1C;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden
+}
+.footer__content{
+  position: relative;
+  top: 15rem;
+  left: 0;
+}
+.hero__name{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #F5FBF2;
+  transition: all 1s;
+  margin-bottom: 3rem;
+ 
+}
+.hero__name:hover{
+  color: #FFB742;
+}
+.profession__hero{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #D4D4D4;
+  ;
+}
+.footer__title{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2.2rem;
+  color: #D4D4D4;
+  transition: all 1s;
+  
+}
+.footer__list{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 3.6rem;
+  list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.list__item a{
+  text-decoration: none;
+  color: #7B7B7B;
+ 
+}
+.footer__title:hover{
+  color:#FFB742;
+}

@@ -1,0 +1,147 @@
+.header {
+  width: 330px;
+  height: 51px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #020953;
+
+  padding: 0 0 0 420px;
+}
+.text {
+  width: 235px;
+  height: 51px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #060a3f;
+  padding: 0 0 0 420px;
+  margin: 15px 0 0 0;
+}
+.cards {
+  position: relative;
+}
+
+.cards__top {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.cards__bottom {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img__1 {
+  background-image: url("../img/img_1.png");
+  width: 210px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 9px;
+}
+.img__2 {
+  background-image: url("../img/img_2.png");
+  width: 210px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 9px;
+}
+.img__3 {
+  background-image: url("../img/img_3.png");
+  width: 210px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 9px;
+}
+.img__4 {
+  background-image: url("../img/img_4.png");
+  width: 210px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 9px;
+}
+.img__5 {
+  background-image: url("../img/img_5.png");
+  width: 210px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 9px;
+}
+.img__6 {
+  background-image: url("../img/img_6.png");
+  width: 210px;
+  height: 260px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 9px;
+}
+.price__name {
+  margin-top: 90%;
+}
+.price {
+  list-style: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffc800;
+}
+.name {
+  list-style: none;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+}
+.price__name {
+  visibility: hidden;
+}
+.img__1:hover > .price__name {
+  visibility: visible;
+  transition: all 1s;
+}
+.img__2:hover > .price__name {
+  visibility: visible;
+  transition: all 1s;
+}
+.img__3:hover > .price__name {
+  visibility: visible;
+  transition: all 1s;
+}
+.img__4:hover > .price__name {
+  visibility: visible;
+  transition: all 1s;
+}
+.img__5:hover .price__name {
+  visibility: visible;
+  transition: all 1s;
+}
+.img__6:hover .price__name {
+  visibility: visible;
+  transition: all 1s;
+}
+
+body:hover .cards__top {
+  top: 42vh;
+  left: 0;
+  transition: all 3s;
+}
+body:hover .cards__bottom {
+  top: -42vh;
+  left: 0;
+  transition: all 3s;
+}

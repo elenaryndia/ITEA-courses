@@ -1,0 +1,114 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+  font-size: 18px;
+  margin: 0;
+  margin-top: 50px;
+}
+.container{
+    width: 70%;
+    height: 70vh;
+    background: #FFB084;
+    border-radius: 20px;
+    padding: 27px 38px 69px 38px;
+    display: grid;
+    grid-template-areas: "person bio bio" "person goals frust" "person dream frust" "phrase dream personality";
+    gap: 30px 30px;
+    grid-template-columns: 38% 27% 29%;
+    grid-template-rows: 26% 25% 16% 17%;
+    margin: 0 auto;
+}
+.container div{
+    border-radius: 20px;
+    background-color: #FFF;
+    padding: 15px 25px;
+
+}
+ul{
+    margin: 7px 0;
+    padding: 0 0 0 20px;
+}
+li{
+    padding: 1px 0;
+}
+.person{
+    grid-area: person;
+    box-shadow: 7px 7px 0 #000;
+    text-align: center;
+    margin: 0 ;
+}
+.person h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.person p{
+    text-align: left;
+    font-size: 18px;
+    
+}
+.person span{
+    font-weight: 700;
+}
+.person img{
+    width: 150px;
+    height: 150px;
+   
+}
+.phrase{
+    grid-area: phrase;
+  box-shadow: 7px 7px 0 #000;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 ;
+}
+.phrase p{
+    margin: 0;
+}
+.bio{
+    grid-area: bio;
+  box-shadow: 7px 7px 0 #000;
+}
+.bio h2{
+    margin: 0;
+}
+.bio p{
+    margin: 7px 0;
+}
+.goals{
+    grid-area: goals;
+  box-shadow: 7px 7px 0 #29A71E;
+}
+.goals h2{
+    color: #29A71E;
+    margin: 0;
+}
+.frustrations{
+    grid-area: frust;
+  box-shadow: 7px 7px 0 #E13535;
+}
+.frustrations h2{
+    color: #E13535;
+    margin: 0;
+}
+.dream{
+    grid-area: dream;
+    box-shadow: 7px 7px 0 #3675B0;
+}
+.dream h2{
+    color: #3675B0;
+    margin: 0;
+}
+.personality{
+    grid-area: personality;
+  box-shadow: 7px 7px 0 #000;
+  
+}
+.personality h2{
+    margin: 0;
+}
+.personality p{
+    margin: 0;
+}

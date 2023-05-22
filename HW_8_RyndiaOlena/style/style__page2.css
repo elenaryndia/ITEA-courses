@@ -1,0 +1,136 @@
+:root{
+    font-size: 10px;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    background-color: #F9FAFF;
+    padding: 0;
+}
+section{
+    display: flex;
+}
+.form__regisrtation{
+    width: 25%;
+    height: 100vh;
+    background-color: #FFFFFF;
+    box-shadow: 40px 0px 40px rgba(0, 0, 0, 0.02);
+    padding: 8rem 10rem 0.6rem 10rem;
+}
+
+.header{
+    font-weight: 700;
+    font-size: 5.4rem;
+    color: #42505C;
+   margin: 0;
+   padding: 0;
+}
+.header__text{
+    font-size: 1.4rem;
+    color: #404040;
+   
+    line-height: 28px;
+    padding-top: 20px;
+    margin: 0;
+}
+.line{
+    border-top: 2px dashed #000000;
+    opacity: 0.2;
+   margin-top: 40px;
+   margin-bottom: 40px;
+}
+.input__name{
+    font-size: 1.2rem;
+    color: #333333; 
+}
+
+.input__text{
+    width: 300px;
+    height: 48px;
+    font-size: 1.4rem;
+   padding-left: 47px;
+  background-image: url(../img/icon_head.png);
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 4%;
+  opacity: 0.5;
+}
+.input__text:last-child{
+    border-top: none;
+  margin-bottom: 15px;
+}
+.question{
+    position: relative;
+    top: 0;
+    left: 290px;
+   }
+   .reminder{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #4743E0;
+   }
+  
+   .input__btn{
+    display: flex;
+    justify-content: space-between;
+}
+.input__btn p{
+    display: flex;
+    align-items: center;
+}
+.check{
+    width: 24px;
+    height: 24px;
+}
+.agree__text{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.agree__text a{
+color: #4743E0;
+text-decoration: none;
+}
+
+.btn a{
+    width: 102px;
+    height: 48px;
+    background-color: #4743E0;
+    color: #FFFFFF;
+    border-color: #4743E0;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link__register p a{
+    text-decoration: none;
+    color: #333333;
+    opacity: 0.3;
+    font-size: 1.4rem;
+    transition: all 1s;
+   
+}
+.link__register{
+    margin-top: 238px;
+    padding-left: 25%;
+    padding-bottom: 35px;
+}
+.link__account a:hover{
+    color: #4743E0;
+opacity: 1;
+}
+.link__register p:last-child{
+   padding-left: 12%;
+}
+.client img{
+    margin: 0;
+    padding: 0;
+    width: 72%;
+    display: block;
+    position: absolute;
+    top: 35px;
+    right: 0;
+}

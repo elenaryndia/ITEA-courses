@@ -1,0 +1,141 @@
+.container {
+    padding: 0 20px;
+}
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.article__post {
+    padding: 20px;
+    width: 45%;
+    border: 1px solid #939292;
+    background-color: #d9d6d6;
+    border-radius: 10px;
+}
+
+.post__title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.article__button {
+    display: block;
+    margin: 30px auto;
+}
+
+.comment {
+    font-size: 28px;
+    font-weight: 700;
+}
+.comment__data {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 25px;
+    background-color: #dcdbdb;
+    border-radius: 8px;
+}
+
+.comment__data div {
+    display: flex;
+    justify-content: space-between;
+}
+.comment__name {
+    font-size: 22px;
+    font-weight: 600;
+}
+.comment__data a {
+    display: flex;
+    justify-content: center;
+    color: #000;
+}
+
+.comment__date {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.comment__margin {
+    margin: 20px 0;
+}
+
+.comment__title {
+    position: relative;
+}
+.comment__icon {
+    position: absolute;
+    bottom: 20px;
+    left: 134px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #2a2a2a;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.pagination__list {
+    list-style: none;
+    display: flex;
+    gap: 0 20px;
+    padding: 0;
+}
+
+.pagination__item {
+    border: 1px solid rgba(0, 0, 0, 0.55);
+    border-radius: 6px;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.55);
+}
+
+._hide {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0);
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0);
+}
+._hide::after {
+    content: "• •";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    border-radius: 2px;
+    background-color: #fff;
+}
+._hide+._hide {
+    display: none;
+}
+
+.pagination__item span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.pagination__item span._active {
+    box-shadow: 0 0 10px 5px rgba(61, 10, 190, 0.55);
+}
+
+.pagination__link {
+    font-size: 20px;
+    color: #3b3b3b;
+}

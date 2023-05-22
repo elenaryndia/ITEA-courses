@@ -1,0 +1,148 @@
+@import url(./normalize.css);
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+:root {
+  font-size: 10px;
+}
+body {
+  font-size: 2rem;
+  font-family: "PT Sans", sans-serif;
+  background-color: #f5f5f5;
+ }
+header {
+  position: sticky;
+  top: 0;
+  
+}
+.header {
+  background-color: #202846;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 3rem;
+  align-items: center;
+}
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  min-width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+}
+.nav a {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: no-drop;
+  transition: all 1s;
+}
+.nav a:hover {
+  color: #aeaee2;
+}
+.title {
+  height: 14rem;
+  font-weight: 400;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  font-size: 4.8rem;
+  padding-left: 11.5rem;
+  background-color: #c6c6dc;
+  color: #202846;
+}
+.place {
+  width: 140rem;
+  height: 7.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+  margin: 5.6rem auto;
+  font-weight: 400;
+  font-size: 2.8rem;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.symbol {
+  position: relative;
+  top: 0;
+  left: 37%;
+}
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 140rem;
+  height: 30rem;
+  background-color: #bdbdc6;
+  margin: 5.6rem auto;
+  transition: all 1s;
+  position: relative;
+}
+.foto {
+  width: 48.5rem;
+}
+.card__title {
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3.6rem;
+}
+.line {
+  border-top: 3px solid #ffffff;
+  margin-bottom: 1rem;
+}
+.description {
+  width: 71.2rem;
+  height: 18.4rem;
+  background-color: #d7d7dd;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.star {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  fill: #ffffff;
+  transition: all 1s;
+}
+.card:hover {
+  background-color: #aeabe2;
+  box-shadow: 5px 5px 30px rgba(0, 0, 255, 0.25);
+}
+
+.card:hover .star {
+  fill: #ffff00;
+}
+.btn{
+    width: 20rem;
+    height: 6rem;
+    background-color: #202846;
+    font-weight: 400;
+    font-size: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3rem;
+   position: absolute; 
+ bottom: 1rem;
+ right: -5rem;
+ transition: all 1s;
+}
+.btn a{
+    color: #FFFFFF;
+    text-decoration: none;
+   
+}
+.card:hover .btn{
+    background-color: #EF075B;
+}
+.arrow{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

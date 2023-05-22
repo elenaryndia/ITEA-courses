@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h3>
+        Задача 1
+    </h3>
+    <p>Створіть 5 дівів на сторінці потім використовуючи getElementsByTagName і forEath поміняйте дивам колір фону.</p>
+    <!--Задача 1-->
+    <input data-number type="number" placeholder="Number" value="5"><br>
+    <input data-color type="color">
+    <button data-button1>Показати</button><br>
+    <input data-color-change type="color">
+    <button data-button2>Змінити колір</button><br>
+    <div class="first-task" data-first></div>
+
+    <h3>
+        Задача 2
+    </h3>
+    <p>
+        Створіть картинку та кнопку з назвою "Змінити картинку"
+        зробіть так щоб при завантаженні сторінки була одна картинка,
+        При натисканні на кнопку вперше картинка замінилася на
+        другу, при другому натисканні, щоб картинка замінилася на третю.
+    </p>
+    <!--Задача 2-->
+    <div class="image-task" data-second>
+        <img data-image src="https://itproger.com/img/courses/1476977240.jpg" alt="html">
+    </div>
+    <button data-button3>Змінити картинку</button>
+
+    <h3>
+        Задача №3
+    </h3>
+    <p>
+        Створіть на сторінці 10 параграфів і зробіть так, щоб при натисканні на параграф він зникав.
+    </p>
+    <!--Задача 3-->
+    <div class="paragraph-task" data-paragraph>
+        <input data-number-paragraph type="number" placeholder="Number" value="10">
+        <button data-button4>Показати</button>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

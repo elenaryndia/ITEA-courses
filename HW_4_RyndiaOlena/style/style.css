@@ -1,0 +1,216 @@
+body{
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+       max-width: 1200x;
+}
+
+.logo{
+    display: block;
+    text-align: center;
+    color: #28CDE3;
+    font-size: 48px;
+    text-decoration: none;
+    padding: 30px 0;
+}
+.logo>span {
+    color: #000000
+}
+.banner{
+    background-image: url("../img/header__background.png");
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+.banner>div{
+    background-image: url("../img/flag.png");
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 64px;
+    padding: 18% 12%;
+    background-position: 6.5% 53%
+}
+.content>h2{
+    font-size: 48px;
+    color:#000000;
+    padding-left: 76px;
+    margin-bottom: 16px;
+}
+.line{
+    border-bottom: 5px solid #33B8F1 ;
+    width: 361px;
+    margin-left: 80px;  
+    margin-bottom: 121px;
+}
+.cards{
+   text-align: center;
+   margin-bottom: 59px;
+ 
+}
+.card__1{
+    background-color: #FFFEFE;
+    width: 398px;
+    height: 481px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 20px 0 20px;
+    
+}
+.card__1>h3{
+    font-size: 36px;
+    margin: 0 auto;
+    color: #000000;
+    font-weight: 700;
+}
+.card__1>p{
+    color: #595050;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.card__1>img{
+    width: 100%;
+}
+.card__2{
+    background-color: #FFFEFE;
+    width: 398px;
+    height: 481px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 20px 0 20px;
+}
+.card__2>h3{
+    font-size: 36px;
+    margin: 0 auto;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+.card__2>p{
+    color: #595050;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.card__2>img{
+    width: 100%;
+}
+.card__3{
+    background-color: #FFFEFE;
+    width: 398px;
+    height: 481px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 6px 5px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    vertical-align: top;
+    margin: 0px 20px 0px 20px;
+}
+.card__3>h3{
+    font-size: 36px;
+    margin: 0 auto;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 19px;
+}
+.card__3>p{
+    color: #595050;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+.card__3>img{
+    width: 100%;
+}
+.support>h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.line__2{
+    border-bottom: 5px solid #33B8F1 ;
+    width: 361px;
+    margin: auto;
+    margin-bottom: 42px;
+}
+.heart{
+    width: 973px;
+    height: 877px;
+  margin: 0 auto;
+  }
+.btn{
+    width: 430px;
+    height: 74px;
+background-color: #33ADF1;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 176px;
+}
+.btn>a{
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+   padding: 10px ;
+}
+.contacts>.logo{
+    font-size: 64px;
+    margin-top: 49px;
+    margin-bottom: 25px;
+}
+.contacts{
+    background-color: #0A2DA9;
+    height: 405px;
+}
+.email{
+   text-align: center;
+    font-size: 32px;
+    color: #353949;
+   margin-bottom: 35px;
+}
+.tel{
+    text-align: center;
+     font-size: 32px;
+     color: #353949;
+     margin-bottom: 50px;
+    
+ }
+ .twitter{
+    display: inline-block;
+    width: 41px;
+    height: 37px;
+    vertical-align: top;
+    margin: 0px 50px ;
+}
+ .tg{
+    display: inline-block;
+    width: 41px;
+    height: 37px;
+    vertical-align: top;
+    margin: 0px 50px ;
+ }
+ .instagram{
+    display: inline-block;
+    width: 41px;
+    height: 37px;
+    vertical-align: top;
+    margin: 0px 50px ;
+  
+ }
+ .facebook{
+    display: inline-block;
+    width: 41px;
+    height: 37px;
+    vertical-align: top;
+    margin: 0px 50px ;
+ }
+.contacts{
+    text-align: center;
+}

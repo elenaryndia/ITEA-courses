@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW-2 JS</title>
+</head>
+<body>
+    <script>
+        let x=6;
+        let y=14;
+        let z=4;
+        console.log(x+=y-x++*z)
+        /*
+        x+= це x=x+
+        x++ це x+1
+        тоді, 
+        x=x+y-x+1*z
+        x=6+14-6*4
+        x=-4
+*/
+        console.log(z=-x-y*5)
+        /*
+        z=-4-14*5
+        z=-66
+        */
+        console.log(y/=x+5%z)
+        /*
+        y=y/x+5%z
+        y=14/-4+5%-66
+        y=14/-4+5
+        y=14/1
+        y=14
+        */
+        console.log(z-x+++y*5)
+        /*
+        -66+4+14*5=8
+
+        */
+        console.log(x=y-x++*z)
+        /*
+        x=14+3*-66
+        x=-184
+        */
+
+    </script>
+</body>
+</html>
